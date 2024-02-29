@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: Fredoka;
+  src: url('src/assets/fonts/fredoka/Fredoka-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('src/assets/fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+
+#page-header {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  min-width: 320px;
+  max-width: 100%;
+  width: auto;
+  position: fixed;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% auto;
+  height: 4.25rem;
+  padding: 0% !important;
+}
+
+#page-header .content-header {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+#page-header .content-header {
+  max-width: 1200px;
+}
+
+@media (min-width: 768px) {
+  #page-header .content-header {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-main-horizontal {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+  }
+
+}
+
+.nav-main {
+  padding-left: 0;
+  list-style: none ;
+}
+
+.nav-main-heading {
+padding-top: 1.5rem;
+padding-bottom: 0.2rem;
+padding-left: 0.625rem;
+font-size: 0.75rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.075rem;
+color: #7a8793;
+}
+
+.nav-main-link {
+position: relative;
+display: flex;
+align-items: center;
+padding: 0.5rem 0.625rem;
+margin: 2px 0;
+min-height: 2.25rem;
+font-size: 0.875rem;
+font-weight: 500;
+line-height: 1.25rem;
+letter-spacing: 0.0125em;
+color: #3f474e;
+border-radius: 0.2rem;
+}
+
+.btn-alt-secondary {
+  color: #212529;
+  background-color: #edf0f7;
+  border-color: #edf0f7;
+}
+
+.btn-alt-secondary:hover {
+  color: #1c1f23;
+  background-color: #d5d8de;
+  border-color: #d5d8de;
+}
+
+#page-footer {
+  top: 0;
+  right: 0;
+  left: 0;
+  min-width: 320px;
+  max-width: 100%;
+  width: auto;
+}
+
+.content-footer {
+  align-items: center;
+  margin: 0 auto;
+}
+
+#page-footer .content-footer {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+#page-footer .content-footer {
+  max-width: 1200px;
+}
+
+@media (min-width: 768px) {
+  #page-footer .content-footer {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+}
+#a:hover {
+    background-color: #00767A;
+    color: white;
+  }
+#a {
+    font-family: Fredoka;
+    color: #00767A;
+    text-decoration: none;
+    font-size: 20px;
+}
+#span{
+  padding: 0px;
+  text-align: center;
+  margin: 0% 5px;
+}
+@media only screen and (max-width: 1000px) {
+    #a {
+        font-family: Fredoka;
+        color: #00767A;
+        height: 10px;
+        font-size: 10px;
+        line-height: 2.2px;
+        padding: 0px;
+    }
+}
+
+.btn:hover {
+  background-color: darkgrey !important;
+  /* color: #F7921D !important; */
+  
+}
+li{
+  margin: 0px 1px;
+}
+.btn {
+  background-color: #F7921D !important;
+  border-radius: 4px !important;
+  color: #FFFFFF !important;
+  padding: 8px 10px !important;
+  margin: 0px ;
+  font-family: Poppins !important;
+}
+.b{
+  width: 15%;
+  margin: 0px 10px 3px 0px;
+}
