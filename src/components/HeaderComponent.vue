@@ -41,7 +41,7 @@
                         </a>
                     </li>
                     <li>
-                        <button class="btn" ><img src="../assets/image/ticket-star.png" alt="" class="b" />GET TICKETS</button>
+                        <button class="btn"><img src="../assets/image/ticket-star.png" alt="" class="b" />GET TICKETS</button>
                     </li>
                     </ul>
             </div>

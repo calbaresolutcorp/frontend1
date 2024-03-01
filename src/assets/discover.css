@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.discover{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.relative1{
+    position: relative;
+    
+
+}
+.content{
+    position: absolute;
+    
+}
+.h2{
+    position: absolute;
+}
+
+/* .bgimg{
+    background-image: url("../assets/image/Discover.png");
+    max-height: 800px !important;
+} */
+

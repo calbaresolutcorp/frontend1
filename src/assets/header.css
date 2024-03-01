@@ -137,14 +137,14 @@ border-radius: 0.2rem;
     font-family: Fredoka;
     color: #00767A;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.0416666666666667vw;
 }
 #span{
   padding: 0px;
   text-align: center;
   margin: 0% 5px;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 300px) {
     #a {
         font-family: Fredoka;
         color: #00767A;
@@ -170,6 +170,7 @@ li{
   padding: 8px 10px !important;
   margin: 0px ;
   font-family: Poppins !important;
+  
 }
 .b{
   width: 15%;
